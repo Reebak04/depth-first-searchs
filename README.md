@@ -1,6 +1,6 @@
 <h1>ExpNo 2 : Implement Depth First Search Traversal of a Graph</h1> 
-<h3>Name: </h3>
-<h3>Register Number:     </h3>
+<h3>Name: TEJUSVE KABEER F</h3>
+<h3>Register Number: 212222100054  </h3>
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -54,43 +54,8 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
 
-<hr>
-<h3>Sample Input</h3>
-<hr>
-8 9 <BR>
-A B <BR>
-A C <BR>
-B E <BR>
-C D <BR>
-B D <BR>
-C G <BR>
-D F <BR>
-G F <BR>
-F H <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
-['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
-
-<hr>
-
-<hr>
-<h3>Sample Input</h3>
-<hr>
-5 5 <BR>
-0 1 <BR>
-0 2 <BR>
-0 3 <BR>
-2 3 <BR>
-2 4 <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
-['0', '1', '2', '3', '4']
-
-<hr>
-<h3> Program: </h3>
-```python
+### Program:
+```
 from collections import deque
 from collections import defaultdict
 def dfs(graph,start,visited,path):
@@ -114,10 +79,42 @@ path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
 ```
-<h3>output:</h3>
-![image](https://github.com/user-attachments/assets/18770f1b-6b61-47db-a125-297afe7ffaba)
+
+
+
+<hr>
+<h3>Sample Input</h3>
+<hr>
+8 9 <BR>
+A B <BR>
+A C <BR>
+B E <BR>
+C D <BR>
+B D <BR>
+C G <BR>
+D F <BR>
+G F <BR>
+F H <BR>
+
+<h3>Sample Output</h3>
+
+![362106596-9f675aba-16dc-4ccf-8edf-13444c0a4634](https://github.com/user-attachments/assets/e79fe343-cf25-474c-b9d1-1ce1644433c8)
+
+
+<h3>Sample Input</h3>
+
+5 5 <BR>
+0 1 <BR>
+0 2 <BR>
+0 3 <BR>
+2 3 <BR>
+2 4 <BR>
+
+<h3>Sample Output</h3>
+
+![362107712-007355d5-ff38-4cd7-8724-9d34046e3d6b](https://github.com/user-attachments/assets/065c2bfb-0242-411d-b0da-9851f2751555)
+
 
 <h3>Result:</h3>
-<hr>
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
 
